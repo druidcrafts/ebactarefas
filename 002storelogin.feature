@@ -13,10 +13,10 @@ Then I should be redirected to the checkout page
 Scenario: Invalid username
 When I type in "josebsdj@ebac.com"
 And the password "hello@123"
-Then an error message show appear "Incorrect username or password"
+Then an error message appears "Incorrect username or password"
 
 Scenario: Invalid password
 When I type in "jose@ebac.com"
 And the password "goodbye@123"
-Then an error message show appear "Incorrect username or password"
+Then an error message appears "Incorrect username or password"
 
